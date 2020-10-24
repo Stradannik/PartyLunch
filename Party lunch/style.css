@@ -1,0 +1,1003 @@
+/*ГЛАВНАЯ СТРАНИЦА*/
+
+@font-face {
+    font-family: "Panton Bold";
+    src: url('fonts/PantonBold.otf');
+}
+
+@font-face {
+    font-family: "Panton Black";
+    src: url('fonts/PantonBlack.otf');
+}
+@font-face {
+    font-family: "Panton Regular";
+    src: url('fonts/Panton Regular.otf');
+}
+
+body{
+margin: 0;
+padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#body {
+    min-width: 1344px;
+}
+#container {
+    background: #FFFFFF;
+    margin: 0 auto;
+    width: 100%;
+    height: 2450px;
+
+}
+
+#header {
+    width: 100%;
+    background-image: url(./image/home/bglogo.png);
+    display: flex;
+    justyfy-content: center;
+}
+
+#logo {
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#menu {
+    line-height: 65px;
+    background-color: #e2e2e2;
+    height: 65px;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+
+#textmenu {
+    margin: 0 auto;
+    color: white;
+    height: 65px;
+    font-size: 27px;
+    margin-left: 14.8%;
+    text-decoration: none;
+    border: 0;
+    display: flex;
+}
+
+#button {
+    font-family: "Panton Bold";
+    background: #e2e2e2;
+    color: #dd0000;
+    font-size: 27px;
+    width: 160px;
+    height: 65px;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    transition-duration: 0.4s;
+    font-size: 30px;
+}
+
+#button:focus {
+outline: none !important
+}
+
+#sale1 {
+    width: 1344px;
+
+    /*background-color: green; */
+    display: flex;
+    justyfy-content: center;
+    margin: auto auto;
+}
+
+#sale1 img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+
+}
+
+
+#sale {
+
+    margin: center;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+    border-radius: 10px;
+
+}
+
+#button:hover
+{
+
+    background: #dd0000; color: white;
+}
+
+#button1 {
+    background-image: url(./image/home/korzina.png);
+    background-size: 30px 30px;
+    background-position: 85% 50%;
+    font-family: "Panton Black";
+    background-repeat: no-repeat;
+    position:relative; left: 76.7%; top: -60px;
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    width: 160px;
+    height: 55px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+}
+
+
+#cor {
+    margin-right: 45px;
+}
+#button1:focus {
+outline: none !important
+}
+#button1:hover {
+    background-color: #bf0000;
+    box-shadow: 0px 0px 13px -11px rgba(34, 60, 80, 0.84);
+}
+
+#new {
+    width: 70%;
+    justyfy-content: center;
+    margin: 0 auto;
+}
+
+#new1 {
+    font-family: "Panton Black";
+    margin-top: 35px;
+    text-align: center;
+    font-size: 65px;
+    color: #dd0000;
+}
+
+#stroke {
+
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    word-spacing: 40px;
+    display: block;
+}
+
+
+
+#block1 {
+    background-image: url(./image/home/block.png);
+    background-size: 320px 340px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+    height: 340px;
+    border-radius: 10px;
+    width: 310px;
+    word-spacing: 30px;
+}
+
+#text12 {
+    font-family: "Panton Bold";
+    text-align: left;
+    margin-top: 270px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: #dd0000;
+    word-spacing: 5px;
+}
+
+#text13 {
+    text-align: left;
+    font-family: "Panton Bold";
+    margin-left: 10px;
+    font-size: 33px;
+    color: black;
+}
+
+#img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 25px;
+
+}
+
+#button2 {
+    background-image: url(./image/home/korzina.png);
+    background-size: 30px 30px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position:relative; left:110px; top: -70px;
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    width: 70px;
+    height: 65px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+}
+
+#button2:focus {
+outline: none !important
+}
+
+#button2:hover {
+    background-color: #bf0000;
+    box-shadow: 0px 0px 13px -11px rgba(34, 60, 80, 0.84);
+}
+
+#footer {
+    width: 100%;
+    height: 504px;
+    background-image: url(./image/home/footerbg.png);
+    justyfy-content: center;
+}
+
+#podval {
+    color: white;
+    font-size: 41px;
+}
+
+#podval h1 {
+    padding-top: 20px;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Panton Black";
+}
+
+#podval table {
+    font-family: "Panton Bold";
+    margin-top: 50px;
+    margin-left: 360px;
+    border-spacing: 10px;
+}
+
+/*МЕНЮ*/
+
+#new5 {
+    width: 1344px;
+    justyfy-content: center;
+    margin: 0 auto;
+}
+
+#stroke4 {
+    display: inline-block;
+    margin-top: -50px;
+    text-align: center;
+    word-spacing: 30px;
+    display: block;
+}
+
+#new3 {
+    width: 100%;
+    font-family: "Panton Black";
+    text-align: center;
+
+
+    font-size: 80px;
+    color: #dd0000;
+}
+
+
+#block11 {
+    display: inline-block;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+    height: 231px;
+    border-radius: 20px;
+    width: 48%;
+}
+
+#img1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin: 0.7% 0.5%;
+}
+
+#text14 {
+    font-family: "Panton Bold";
+    word-spacing: 5px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 250px;
+    font-size: 23px;
+    color: #dd0000;
+}
+
+#text15 {
+    text-align: left;
+    font-family: "Panton Bold";
+    margin-top: 30px;
+    margin-left: 450px;
+    font-size: 33px;
+    color: black;
+}
+
+#text16 {
+
+    text-align: left;
+    width: 650px;
+    word-spacing: 10px;
+    font-family: "Panton Bold";
+    margin-left: 250px;
+    font-size: 18px;
+    color: black;
+}
+#text16 p {
+    max-width: 55%;
+    min-width: 25%;
+    margin: 0;
+    padding: 0;
+
+}
+#button3 {
+
+    background-image: url(./image/home/korzina.png);
+    background-size: 30px 30px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    position:relative; left:260px; top: -55px;
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    width: 90px;
+    height: 65px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+}
+
+#button3:focus {
+    outline: none !important
+}
+
+#button3:hover {
+    background-color: #bf0000;
+    box-shadow: 0px 0px 13px -11px rgba(34, 60, 80, 0.84);
+}
+
+#zagolovok {
+    position: relative;
+    top: -40px;
+    bottom: -50px;
+    font-family: "Panton Regular";
+    text-align: left;
+    font-size: 60px;
+    color: #dd0000;
+}
+
+#stroke7 {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    word-spacing: 55px;
+    display: block;
+}
+
+#block4 {
+    background-image: url(./image/home/block.png);
+    background-size: 291px 340px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+    height: 340px;
+    border-radius: 10px;
+    width: 291px;
+
+}
+
+#button5 {
+    background-image: url(./image/home/korzina.png);
+    background-size: 30px 30px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position:relative; left:100px; top: -70px;
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    width: 70px;
+    height: 65px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+}
+
+#button5:focus {
+outline: none !important
+}
+
+#button5:hover {
+    background-color: #bf0000;
+    box-shadow: 0px 0px 13px -11px rgba(34, 60, 80, 0.84);
+}
+
+#footerimg {
+    padding-top: 10px;
+    display: block;
+    margin-left: 39%;
+    padding-right: 35%;
+     line-height: 80px;
+}
+
+
+
+
+
+
+
+/*abouts us*/
+
+
+
+
+#content {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+    height: 100%px;
+    border-radius: 20px;
+    width: 70%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#zag {
+    margin-top: -20px;
+    padding-top: 20px;;
+    margin-left: 31px;
+    font-size: 42px;
+    font-family: "Panton Black";
+    color: #dd0000;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+#information {
+    width: 90%;
+   padding-top: -30px;
+    margin-left: 31px;
+    font-family: "Panton Bold";
+}
+
+#imginf {
+    display: flex;
+    position: relative;
+    left: 9.3%; right: 9.3%;
+    padding-top: 30px;
+
+}
+
+
+#adres h1 {
+    font-size: 44px;
+    font-family: "Panton Black";
+    text-align: center;
+    color: #dd0000;
+}
+
+
+#adres p {
+    font-family: "Panton Bold";
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 31px;
+
+    margin-bottom: -20px;
+}
+
+#text10 {
+    font-family: "Panton Regular";
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 31px;
+    padding-bottom: 20px;
+}
+
+
+#imginf img {
+    width: 80%;
+    text-align: center;
+}
+
+
+
+/*корзина*/
+
+
+#container5 h1 {
+    margin-top: -30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Panton Black";
+    color: #dd0000;
+}
+
+
+#corzinatext1 {
+    margin-top: 80px;
+    width: 90%;
+   padding-top: -30px;
+    margin-left: 31px;
+    font-family: "Panton Bold";
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#sum {
+    padding: 10px;
+    text-align: right;
+    margin-top: 150px;
+    margin-right: 60px;
+    font-family: "Panton Bold";
+    font-size: 30px;
+}
+
+
+#button6 {
+
+    font-family: "Panton Bold";
+
+    position:relative; left: 2.5%;
+    margin-top: 50px;
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    width: 160px;
+    height: 55px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+    text-align: center
+}
+
+
+
+#button6:focus {
+outline: none !important
+}
+#button6:hover {
+    background-color: #bf0000;
+    box-shadow: 0px 0px 13px -11px rgba(34, 60, 80, 0.84);
+}
+
+#button7 {
+    background-image: url(./image/home/korzina.png);
+    background-size: 30px 30px;
+    background-position: 90% 50%;
+    font-family: "Panton Bold";
+    background-repeat: no-repeat;
+    position:relative; left: 65.5%;
+    margin-top: 50px;
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    width: 230px;
+    height: 55px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+}
+
+
+#cor {
+    margin-right: 45px;
+}
+#button7:focus {
+outline: none !important
+}
+#button7:hover {
+    background-color: #bf0000;
+    box-shadow: 0px 0px 13px -11px rgba(34, 60, 80, 0.84);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+
+    #sale1 {
+        width: 1000px;
+    }
+#menu {
+    line-height: 45px;
+    background-color: #e2e2e2;
+    height: 55px;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+    #textmenu {
+    margin: 0 auto;
+    color: white;
+    height: 55px;
+    font-size: 27px;
+    margin-left: 11%;
+    text-decoration: none;
+    border: 0;
+    display: flex;
+}
+
+#button {
+    vertical-align: auto;
+    font-family: "Panton Bold";
+    background: #e2e2e2;
+    color: #dd0000;
+    width: 120px;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    transition-duration: 0.4s;
+    font-size: 20px;
+}
+
+
+
+#button1 {
+    background-image: url(./image/home/korzina.png);
+    background-size: 30px 30px;
+    background-position: 85% 50%;
+    font-family: "Panton Black";
+    background-repeat: no-repeat;
+    position:relative; left: 76.5%; top: -53px;
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    width: 160px;
+    height: 50px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+}
+
+
+#cor {
+    margin-right: 45px;
+}
+}
+
+
+@media screen and (max-width: 1280px) {
+    #sale1 {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    #footerimg {
+    padding-top: 20px;
+    display: block;
+    margin-left: 30%;
+    padding-right: 35%;
+
+}
+
+    #container10 {
+    width: 1050px;
+}
+    #stroke7 {
+    width: 720px;
+    margin-left: 140px;
+    text-align: center;
+    word-spacing: 132px;
+    display: block;
+}
+    #new {
+    width: 90%;
+    justyfy-content: center;
+    margin: 0 auto;
+}
+    #sale1 {
+        width: 650px;
+    }
+    #button1 {
+
+    background-size: 25px 25px;
+
+    position:relative; left: 76.5%; top: -51px;
+    background-color: #dd0000;
+    font-size: 15px;
+    width: 130px;
+    height: 45px;
+}
+
+
+#cor {
+    margin-right: 40px;
+}
+    #block1 {
+    background-image: url(./image/home/block.png);
+    background-size: 291px 340px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+
+    border-radius: 10px;
+    width: 270px;
+    word-spacing: 30px;
+}
+
+#text12 {
+    font-family: "Panton Bold";
+    text-align: left;
+    margin-top: 270px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #dd0000;
+    word-spacing: 5px;
+}
+
+#text13 {
+    text-align: left;
+    font-family: "Panton Bold";
+    margin-left: 10px;
+    font-size: 33px;
+    color: black;
+}
+
+#img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#button2 {
+    background-image: url(./image/home/korzina.png);
+    background-size: 30px 30px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position:relative; left:90px; top: -65px;
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    width: 70px;
+    height: 65px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+}
+
+#zagolovok {
+    margin-top: 100px;
+    position: relative;
+    left: 144px;
+}
+#text14 {
+    position: relative;
+    top: 15px;
+}
+
+#text16 {
+    position: relative;
+    top: 15px;
+}
+    #stroke4 {
+        width: 1050px;
+    }
+    #new5 {
+        margin: 0px;
+        width: 900px;
+    }
+#block11 {
+    margin-left: 14%;
+
+    display: block;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+    height: 215px;
+    border-radius: 20px;
+    width: 719px;
+}
+#button7 {
+    position: relative; top: -12px;
+    margin-top: -20px;
+    margin-left: -95px;
+    width: 150px;
+}
+#footer {
+
+    margin-top: 330px;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width:720px) {
+
+    #footer {
+        margin-top: 200px;
+    }
+    #footerimg {
+        margin-top: 10px;
+        margin-left: 20%;
+    }
+
+    #podval h1 {
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+
+    #new5 {
+    width: 720px;
+    }
+
+    #button7 {
+
+
+    position:relative; left: 28%; top: -13px;
+
+    background-color: #dd0000;
+    color: white;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+    width: 170px;
+    height: 55px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+}
+#sale1 {
+        width: 550px;
+    }
+#menu {
+    line-height: 35px;
+    background-color: #e2e2e2;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+    #textmenu {
+    margin: 0 auto;
+    color: white;
+    height: 45px;
+    font-size: 27px;
+    margin-left: 2%;
+    text-decoration: none;
+    border: 0;
+    display: flex;
+}
+
+#button {
+
+    font-family: "Panton Bold";
+    background: #e2e2e2;
+    color: #dd0000;
+    font-size: 15px;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    transition-duration: 0.4s;
+    font-size: 15px;
+}
+
+    #button1 {
+
+    background-size: 25px 25px;
+
+    position:relative; left: 76.5%; top: -41px;
+    background-color: #dd0000;
+    font-size: 10px;
+    width: 100px;
+    height: 35px;
+}
+#img img{
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    margin-left: 10px;
+    top: -5px;
+
+}
+
+      #block1 {
+    background-image: url(./image/home/block.png);
+    background-size: 291px 270px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+
+    border-radius: 10px;
+    width: 220px;
+          height: 270px;
+    word-spacing: 30px;
+}
+    #text12 {
+    font-family: "Panton Bold";
+    text-align: left;
+    margin-top: 215px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #dd0000;
+    word-spacing: 5px;
+}
+
+#text13 {
+    text-align: left;
+    font-family: "Panton Bold";
+    margin-left: 10px;
+    font-size: 25px;
+    color: black;
+}
+    #button2 {
+        position: relative;
+        left: 70px;
+        top: -52px;
+        height: 55px;
+    }
+
+#block11 {
+    margin-left:2%;
+    display: block;
+    box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.62);
+    height: 215px;
+    border-radius: 20px;
+    width: 600px;
+}
+
+}
+
+@media screen and (max-width:720px) {
+
+    #stroke7 {
+        display: block;
+        position: relative;
+        left: 20%;
+    }
+    #new5 {
+    width: 720px;
+    justyfy-content: center;
+    margin: 0 auto;
+}
+}
